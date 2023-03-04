@@ -16,7 +16,7 @@ OWNER_INFO = config.OWNER_NAME
 if config.OWNER_NAME:
     OWNER_NAME = OWNER_INFO
 else:
-    OWNER_NAME = "USER"
+    OWNER_NAME = "KSK"
 
 OWNER_ID = config.OWNER_ID
 
