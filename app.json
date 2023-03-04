@@ -31,7 +31,7 @@
       },
      "CMD_HNDLR": {
             "description": "Custom command handler.",
-            "value": "!",
+            "value": ".",
             "required": false
         },
       "BOT_TOKEN": {
