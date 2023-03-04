@@ -22,12 +22,9 @@ OWNER_ID = config.OWNER_ID
 
 Deadly_Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/Deadly_spambot"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/Deadly_spam_bot")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/kskxbots"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/thefriendgroup")
         ],
-        [
-        Button.url("• Rᴇᴘᴏ •", "https://github.com/Team-Deadly/DEADLY-SPAMBOT")
-        ]
         ]
         
 
@@ -50,7 +47,7 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[🇧𝙻𝙰𝚉𝙴](tg://user?id={5256676062})"
+        creator = f"[KSK](tg://user?id={5909030617})"
         DEADLY_ON = f"""
 ʜᴇʏ {mention},
 ᴛʜɪs ɪs ᴅᴇᴀᴅʟʏ sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
