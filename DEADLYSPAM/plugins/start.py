@@ -45,13 +45,12 @@ Deadly_Button = [
 async def start(e):
     if e.chat_id is e.sender_id:
         name = e.sender.first_name
-        user_id = e.sender_id
-        firstname = replied_user.user.first_name
-        mention = f"[{name}](tg://user?id={user_id})"
+        user_id = e.sender_id 
+        mention = f"["+name+"](tg://user?id="+str(user_id)+")"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
         creator = f"[KSK PAPA](tg://user?id={5909030617})"
         DEADLY_ON = f"""
-ʜᴇʏ {firstname},
+ʜᴇʏ {mention},
 
 ᴛʜɪs ɪs sᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
 
