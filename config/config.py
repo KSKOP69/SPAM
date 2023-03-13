@@ -10,7 +10,7 @@ API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 
 # ADMIN DETAILS (Your ID) 
-OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", "5909030617"))
 
 OWNER_NAME = getenv("OWNER_NAME", "KSK") 
 SUDO_USER= list(
